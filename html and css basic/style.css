@@ -1,0 +1,74 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+.clear{
+    clear: both;
+    border: 1px solid black;
+}
+body{
+    background-color: antiquewhite;
+}
+main{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1000px;
+    background-color: rgb(175, 240, 220);
+}
+.header img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+
+.contact a{
+    text-decoration: none;
+    color:rgb(25, 128, 224);
+    font-size: 20px;
+    
+}
+.contact{
+    float: right;
+    padding: 50px;
+}
+.text{
+    padding: 60px;
+    float: left;
+}
+/*personal info*/
+#personal-section{
+    margin-top: 30px;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+/*education Section start*/
+.edu-right{
+    float: right;
+    width: 45%;
+}
+.edu-left{
+    float: left;
+    width: 45%;}
+/*education Section End*/
+.footer-div{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.footer-div a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+.footer-div p{
+    color: white;
+    margin-top: 20px;
+}
